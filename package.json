@@ -1,0 +1,38 @@
+{
+  "name": "axe-webdriverio",
+  "description": "Provides a method to integrate axe with webdriverio to inject and analyze web pages using aXe",
+  "version": "0.0.5",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "contributors": [
+    {
+      "name": "Sushil Nagi",
+      "url": "http://github.com/snagi"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snagi/axe-webdriverio.git"
+  },
+  "keywords": [
+    "a11y",
+    "unit",
+    "testing",
+    "tdd",
+    "bdd",
+    "accessibility",
+    "aXe",
+    "selenium",
+    "webdriver",
+    "webdriverio"
+  ],
+  "scripts": {
+  },
+  "peerDependencies": {
+    "webdriverio": ">= 4.10.0"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "axe-webdriverjs": "^1.2.1"
+  }
+}
