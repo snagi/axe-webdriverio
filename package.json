@@ -1,7 +1,7 @@
 {
   "name": "axe-webdriverio",
   "description": "Provides a method to integrate axe with webdriverio to inject and analyze web pages using aXe",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "main": "lib/index.js",
   "contributors": [
@@ -27,11 +27,15 @@
     "webdriverio"
   ],
   "scripts": {
+    "test": "jest"
   },
   "peerDependencies": {
     "webdriverio": ">= 4.10.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jest": "^24.3.0",
+    "webdriverio": ">= 4.10.0"
+  },
   "dependencies": {
     "axe-webdriverjs": "^1.2.1"
   }
